@@ -42,4 +42,9 @@ Create a single Python file called `velocity_controller.py` that:
 - **Timing Logic** (15%): Proper 5-second behavior implementation  
 - **Math Calculation** (15%): Correct velocity magnitude and distance calculations
 
+### Hints
+- Use `rclpy.spin_once()` or similar for processing callbacks
+- `math.sqrt(vx² + vy²)` for velocity magnitude
+- Track elapsed time for the 5-second behavior
+
 **Estimated time: 30-45 minutes**
